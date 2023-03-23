@@ -22,10 +22,19 @@ void input()
         {
             cout << "\nArray yang anda masukan maksimal 20 elemen. \n";  // Menampilkan pesan jika data lebih dari 20
         }
-
     }
-    
-}
+    cout << endl;                                       // Membuat jarak perbaris program
+    cout << "======================" << endl;           // Membuat susunan data elemen array
+    cout << "masukan Element Array" << endl;
+    cout << "======================" << endl;
+
+    // Menggunakan perulangan for untuk menyimpan data pada Array
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Data ke-" << (i + 1) << ":";       //  memasukan atau menginputkan nilai data n
+        cin >> arr[i];                              // memasukan nilai data n kedalam Array arr
+    }
+};
 
 
 
