@@ -73,11 +73,11 @@ void display()
     cout << "Element Array yang telah tersusun" << endl;            //output ke layar
     cout << "===================================" << endl;          // output ke layar
 
-    for (int j = 0; j < n; j++)
+    for (int j = 0; j < n; j++)                   // Looping dengan j dimulai dari 0 hingga n-1
     {
-        cout << arr[j] << endl;
+        cout << arr[j] << endl;                  // output ke layar
     }
-    cout << endl;
+    cout << endl;                                // output baris kosong
 
 }
 
@@ -87,6 +87,8 @@ void display()
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();                //memanggil input
+    insertionsort();        //memanggil insertionsort
+    display();              //memanggil display
 }
 
