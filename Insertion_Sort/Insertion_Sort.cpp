@@ -65,7 +65,10 @@ void insertionsort()
     }
 };
 
+void display()
+{
 
+}
 
 
 
